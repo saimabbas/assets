@@ -1,0 +1,51 @@
+@media screen and (max-width: 500px) {
+    .air-quality-box {
+        padding: 5rem 2rem 0rem 2rem;
+    }
+    p {
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    .p-item-1-box.col-sm-4 {
+        -ms-flex: 0 0 28%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+    .air-quality-item {
+        padding: 0rem 2rem;
+    }
+    .line-abc {
+        width: 50%;
+    }
+    .air-quality-item h2
+    {
+        padding-bottom: 0;
+    }
+    .photo-main-box {
+        padding-top: 1rem;
+        padding-bottom: 0rem ;
+    }
+    .bottom-line-p {
+        width: 70%;
+        height: 0.1vw;
+        background-color: gray;
+        margin: 1rem 0 2rem 0;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 768px) {
+    .air-quality-box {
+        padding: 8rem 4rem 1rem 5rem;
+    }
+  }

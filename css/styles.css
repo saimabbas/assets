@@ -1,7 +1,158 @@
-body {
-  background-color: rgb(255,255,255);
-  color: rgb(255,255,255);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.75s;
 }
+body, html 
+{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+:root {
+  --black: rgb(40, 40, 40);
+  --white: #f7f8f9;
+  --box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+body {
+  background-color: var(--white);
+}
+p 
+{
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.main-body
+{
+  padding: 4rem;
+}
+.air-quality-box
+{
+  padding: 5rem 4rem 1rem 5rem;
+}
+.heading-text h1
+{
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--black);
+}
+.heading-text p
+{
+  margin: 0;
+  padding: 1rem 0 1.75rem 0;
+  color: var(--black);
+}
+.photo-main-box
+{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.air-quality-item h2
+{
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 0;
+  color: var(--black);
+  padding-bottom: 1rem;
+}
+.p-item-1-box
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+.p-item-1-box img
+{
+  width: 100%;
+  height: 80%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.photo-content
+{
+  background-color: rgb(235, 231, 231) !important;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  width: 100%;
+  padding: 1rem;
+}
+.photo-main-box
+{
+  display: flex;
+  justify-content: space-between;
+}
+.p-item-1-box.col-sm-4{
+  -ms-flex:0 0 28%;
+  flex:0 0 28%;
+  max-width:28%;
+}
+.air-quality-item
+{
+  padding: 0rem 5rem;
+}
+.line-abc
+{
+  width: 35%;
+  height: 0.1vw;
+  background-color: gray;
+  margin-bottom: 1rem;
+}
+.photo-content h6
+{
+  font-size: 1rem;
+  color: var(--black);
+  font-weight: 600;
+  margin: 0;
+}
+.photo-content p
+{
+  font-size: 1rem;
+  color: var(--black);
+  font-weight: 500;
+  margin: 0;
+}
+.photo-content span
+{
+  font-size: 0.9rem;
+  color: var(--black);
+  font-weight: 500;
+  margin: 0;
+}
+.p-item-1-box:hover
+{
+  box-shadow: var(--box-shadow);
+  width: 80% !important;
+  border-radius: 0.5rem;
+}
+.bottom-line-p
+{
+  width: 50%;
+  height: 0.1vw;
+  background-color: gray;
+  margin: 2.5rem 0;
+}
+.photo-main-box-last
+{
+  margin-bottom: 4rem !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #hero {
   width: 100%;
@@ -9,6 +160,12 @@ body {
   background: url(../../assets/img/fieldpromobile.jpg) center / cover no-repeat;
   color: #333;
 }
+
+
+
+
+
+
 
 @media (min-width: 768px) {
   #hero {
@@ -89,14 +246,14 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.row {
+/* .row {
   height: 250px;
   margin: 10px;
 }
 
 .col {
   width: 700px;
-}
+} */
 
 #row-two {
   padding-top: 0;
