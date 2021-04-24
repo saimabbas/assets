@@ -33,19 +33,3 @@
         margin: 1rem 0 2rem 0;
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-  @media screen and (max-width: 768px) {
-    .air-quality-box {
-        padding: 8rem 4rem 1rem 5rem;
-    }
-  }
