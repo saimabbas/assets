@@ -30,7 +30,7 @@ p
 }
 .air-quality-box
 {
-  padding: 5rem 4rem 1rem 5rem;
+  padding: 1.5rem 4rem 1rem 5rem;
 }
 .heading-text h1
 {
@@ -167,12 +167,12 @@ p
   font-size: 0.65rem;
   margin-left: 0.25rem;
 }
-.all-drop-down
+/* .all-drop-down
 {
   display: flex !important;
   justify-content: space-between;
   align-items: center;
-}
+} */
 .s-main-head
 {
   width: 100%;
@@ -381,7 +381,7 @@ p
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 .search-btn
 {
@@ -468,11 +468,36 @@ p
 
 
 
-
-
+.navbar-brand
+{
+  font-size: 1rem;
+}
+.dropdown
+{
+  position: relative;
+}
+.dropdown-menu
+{
+  border: 0;
+  border-radius: 0;
+  background-color: #f7f8f9 !important;
+  top: 100% !important;
+  left: 50% !important;
+  transform: translate(-50%,0%) !important;
+  z-index: 1000 !important;
+  max-width: unset;
+    width: max-content;
+    box-shadow: var(--box-shadow);
+}
+.dropdown-menu a 
+{
+  background-color: #f7f8f9 !important;
+  font-size: 0.9rem;
+}
 .main-product-l-box
 {
   padding-top: 3rem;
+  align-items: flex-start;
 }
 .pro-lis-side-box
 {
@@ -966,6 +991,65 @@ margin-bottom: 2vw;
   width: 100%;
   height: 100px;
 }
-
-
-
+.swiper-product
+{
+  overflow: hidden;
+  width: 70%;
+}
+.product-slider-box
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-prev:focus,
+.product-next:focus 
+{
+  outline: 0;
+}
+.product-prev,
+.product-next 
+{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-prev i:hover,
+.product-next i:hover 
+{
+  box-shadow: var(--box-shadow);
+  transition: 0.5s;
+}
+.product-prev i,
+.product-next i 
+{
+  font-size: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #000;
+  color: white;
+}
+.swiper-product .swiper-slide
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-product .swiper-slide img 
+{
+  width: 95%;
+  object-fit: contain;
+}
+.pro-dro-menu
+{
+  position: absolute !important;
+  will-change: transform;
+  top: 0px !important;
+  left: 0px !important;
+  transform: translate3d(0px, 44px, 0px) !important;
+}
